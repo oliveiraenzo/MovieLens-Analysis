@@ -12,6 +12,8 @@ Through **data cleaning** and **data analysis** techniques, the project generate
 
 The project is organized into the following directories:
 
+```shell
+$tree
 
 MovieLens-Analysis/ 
 │ ├── data/ # Raw CSV data files (movies.csv, ratings.csv, etc.) 
@@ -20,7 +22,7 @@ MovieLens-Analysis/
 │ ├── scripts/ # Scripts for data cleaning and analysis (data_cleaning.py, data_analysis.py) 
 │ └── README.md # This file with project details
 
-
+```
 ### 🔍 Descriptions of directories:
 
 - **data/**: Contains the original raw data in CSV format, including `movies.csv`, `ratings.csv`, `tags.csv`, and `links.csv`.
@@ -61,23 +63,23 @@ The project performs the following tasks:
    pip install -r requirements.txt
 
 
-Run the Data Cleaning Script:
+2. **Run the Data Cleaning Script**:
+    - The data_cleaning.py script performs the cleaning tasks (e.g., renaming columns, handling missing data, etc.):
 
-The data_cleaning.py script performs the cleaning tasks (e.g., renaming columns, handling missing data, etc.):
+   ```bash
+   python scripts/data_cleaning.py
 
-python scripts/data_cleaning.py
+3. **Run the Data Analysis Script**:
+    - After cleaning the data, run data_analysis.py to perform the analysis and generate reports:
+   
+   ```bash
+   python scripts/data_analysis.py
 
-Run the Data Analysis Script:
+4. **Interactive Data Exploration with Jupyter**:
+    - The exploration.ipynb notebook provides an interactive environment to explore the data. Open it in Jupyter for dynamic analysis:
 
-After cleaning the data, run data_analysis.py to perform the analysis and generate reports:
-
-python scripts/data_analysis.py
-
-Interactive Data Exploration with Jupyter:
-
-The exploration.ipynb notebook provides an interactive environment to explore the data. Open it in Jupyter for dynamic analysis:
-
-jupyter notebook notebooks/exploration.ipynb
+   ```bash
+   jupyter notebook notebooks/exploration.ipynb
 
 ## 📊 Technologies Used
 Python: Programming language used for data processing and analysis.
