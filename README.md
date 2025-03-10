@@ -79,14 +79,15 @@ The exploration.ipynb notebook provides an interactive environment to explore th
 
 jupyter notebook notebooks/exploration.ipynb
 
-📊 Technologies Used
+## 📊 Technologies Used
 Python: Programming language used for data processing and analysis.
 Pandas: Powerful library for data manipulation and analysis.
 Matplotlib and Seaborn: Libraries for data visualization and creating plots.
 Jupyter Notebook: Environment for interactive data analysis and visualization.
 NumPy: Library for numerical computations.
 Scikit-learn: Potentially for future applications in machine learning (e.g., movie recommendation systems).
-📝 Report Generation
+
+## 📝 Report Generation
 The project generates a detailed report, which can be found in the reports/ folder. This report includes:
 
 Overview of data exploration and analysis.
@@ -94,17 +95,14 @@ Insights into rating distributions, movie tags, and trends.
 Outlier and missing data analysis.
 Reports are saved in text format (reports.txt) and can be further divided into multiple files for easier reading if necessary.
 
-👨‍💻 Author
-Enzo Brito
-Student of Computer Engineering
 
 
-⚙️ Future Improvements
+## ⚙️ Future Improvements
 This project lays the foundation for further analysis and model-building, such as:
 
 Movie recommendation systems using collaborative filtering or content-based filtering.
 Sentiment analysis of user tags.
 Improved data visualizations with interactive dashboards (e.g., using Plotly or Dash).
 
-🏁 Conclusion
+## 🏁 Conclusion
 The MovieLens-Analysis project provides valuable insights into the MovieLens dataset by performing thorough data cleaning and analysis. The project prepares the dataset for further exploration and model development, with a strong focus on data quality and ease of interpretation. By cleaning, exploring, and analyzing the data, this project demonstrates how raw datasets can be transformed into actionable insights.
